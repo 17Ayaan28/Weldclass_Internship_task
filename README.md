@@ -1,6 +1,8 @@
 # Weldclass_Internship_task
 
 
+
+
 I have selected the first component of the integration task. I have also made an attempt at doing the second component.
 The repository link: https://github.com/17Ayaan28/Weldclass_Internship_task
 
@@ -34,7 +36,7 @@ https://vcc-naX.8x8/api/recordings/files?agentID=bill&channel=8005557780&phoneNu
 1) The firebase realtime db is a json based, No SQL database. It stores data in a JSON format. IF this db is used then the data can be made to look like this.
 
 
-The code for the firebase solution is here - 
+The code for the firebase solution is in the file Solution.java - 
 
 https://github.com/17Ayaan28/Weldclass_Internship_task/blob/main/Solution.java
 
@@ -42,7 +44,7 @@ In this case, to store the file I convert it to a byte array.
 
 2) We can also use a google cloud bucket to store these files. This can be done by structuring the data such that the phone numbers are directories and the files inside them are the associated calls.
 
-The code for this case is here - 
+The code for this case is in the file Solution_2.java - 
 
 https://github.com/17Ayaan28/Weldclass_Internship_task/blob/main/Solution_2.java
 
@@ -54,3 +56,18 @@ Q1) I was a bit confused as to why the recording API had a type of call for busy
 Also, If direct agent access is when a customer directly reaches out to an agent on their channel, how is it different from an inbound call in terms of the recording?
 
 Was I correct in assuming that a separate endpoint returns the actual data of the file and this endpoint just returns other details ?
+
+
+
+
+
+Q2) Are there any data privacy questions that come up with recording customer conversations and transcribing them ?
+
+Q3) What is the most efficient database out of the ones that google provides for storing these kind of audio files ? ex. CloudSQL, Realtime DB, a bucket etc.
+
+Challenges to come up with a solution - 
+
+1) For the first component, the main challenge entails obtaining and organising the data in such a format such that it can be added to the cloud database and then can be further utilised to transcribe. Since we have to first make API calls and then filter the data, find what’s required and then add it the the db, this constitutes the main challenge.
+
+2) The second challenge in the first component of the task is to store data in an organised manner so that it is easy to access it and code up the solution for further tasks.
+
