@@ -48,6 +48,9 @@ The code for this case is in the file Solution_2.java -
 
 https://github.com/17Ayaan28/Weldclass_Internship_task/blob/main/Solution_2.java
 
+I have also added some code for the transcription which I think if run in a for loop on all the files in the bucket will give the transcription.
+
+https://github.com/17Ayaan28/Weldclass_Internship_task/blob/main/transcribe.java
 
 Queries - 
 
@@ -70,4 +73,7 @@ Challenges to come up with a solution -
 1) For the first component, the main challenge entails obtaining and organising the data in such a format such that it can be added to the cloud database and then can be further utilised to transcribe. Since we have to first make API calls and then filter the data, find what’s required and then add it the the db, this constitutes the main challenge.
 
 2) The second challenge in the first component of the task is to store data in an organised manner so that it is easy to access it and code up the solution for further tasks.
+
+Thank you for giving me an opportunity to perform this task !
+
 
